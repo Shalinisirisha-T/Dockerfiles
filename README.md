@@ -1,3 +1,29 @@
+# Dockerfile Instructions Repository 🐳
+
+This repository contains simple examples and practical explanations of commonly used **Dockerfile instructions**. Each instruction is organized separately with its own Dockerfile to make learning and understanding Docker image creation easier.
+
+## 📚 Dockerfile Instructions
+
+This repository covers the following instructions:
+
+1. [FROM](#from)
+2. [RUN](#run)
+3. [CMD](#cmd)
+4. [COPY](#copy)
+5. [ADD](#add)
+6. [LABEL](#label)
+7. [EXPOSE](#expose)
+8. [ENV](#env)
+9. [ENTRYPOINT](#entrypoint)
+10. [USER](#user)
+11. [WORKDIR](#workdir)
+12. [ARG](#arg)
+13. [ONBUILD](#onbuild)
+
+
+
+
+
 # Dockerfile Instructions
 
 Dockerfile instructions are used to build and configure Docker images and containers.
@@ -233,3 +259,6 @@ ONBUILD <instruction>
 ```dockerfile
 ONBUILD COPY . /app
 ```
+
+
+
